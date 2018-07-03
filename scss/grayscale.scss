@@ -33,12 +33,12 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
 
   margin: 0 0 25px;
   @media(min-width: 768px) {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
 
     margin: 0 0 35px;
@@ -138,7 +138,7 @@ a {
 
   color: #212529;
   background: url('../img/intro-bg-janatomam.jpg') no-repeat bottom center scroll;
-  background-color: #212529;
+  background-color: #1c1f20;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -156,7 +156,9 @@ a {
       font-size: 50px;
     }
     .intro-text {
-      font-size: 18px;
+      font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 25px;
     }
   }
   @media(min-width:768px) {
@@ -168,11 +170,27 @@ a {
         margin: 0 0;
       }
       .intro-text {
-        font-size: 30px;
+        font-size: 25px;
         margin: 0 0;
       }
     }
   }
+}
+
+.about-section {
+  background-color: #4a3a21;
+  p {
+    text-align: justify;
+  }
+  .finish {
+    font-size: 35px;
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  }
+}
+
+.application-section {
+  background: #532901;
 }
 
 .motivation {
@@ -189,7 +207,19 @@ a {
   -o-background-size: cover;
   background-size: cover;
 
-  font-size: 50px;
+  .quote {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    color: black;
+    font-size: 35px;
+    padding: 50px;
+    text-align: left;
+
+    .author {
+      font-size: 30px;
+      text-align: right;
+    }
+  }
 }
 
 .btn-circle {
@@ -223,7 +253,7 @@ a {
 
 .info-section {
   color: white;
-  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
+  background: url('../img/tunnel.jpg') no-repeat center center scroll;
   background-color: #212529;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -232,7 +262,10 @@ a {
 }
 
 .team-section {
-  background: rgb(1, 54, 85)
+  background: rgb(71, 100, 1);
+  p {
+    font-size: 16px;
+  }
 }
 
 .btn {
@@ -281,13 +314,19 @@ ul.banner-social-buttons {
 .org {
   img {
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
     margin: 35px 0;
     border: solid 3px white;
   }
   h3 {
     min-height: 60px;
     margin: 0;
+  }
+  h5 {
+    margin: 0;
+  }
+  p {
+    text-align: justify;
   }
 }
 
@@ -327,7 +366,7 @@ img::-moz-selection {
   display:inline-block;
   float:none;
   /* reset the text-align */
-  text-align:left;
+  text-align:block;
   /* inline-block space fix */
   margin-right:-4px;
 }
