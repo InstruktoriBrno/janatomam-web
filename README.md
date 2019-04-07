@@ -1,3 +1,9 @@
+# Já na to mám! 2018 web
+
+Web pro víkendovku [Já na to mám!](https://janatomam.instruktori.cz/) organizovanou pod hlavičkou [Instruktorů Brno](https://www.instruktori.cz/).
+
+Web je postaven na šabloně [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) od [Start Bootstrap](http://startbootstrap.com/), původně forknut z [jejich repozitáře](https://github.com/BlackrockDigital/startbootstrap-grayscale).
+
 # [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
